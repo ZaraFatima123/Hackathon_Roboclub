@@ -1,0 +1,42 @@
+// index.html file for SpaceX Quiz app :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Quiz</title>
+    <link rel="stylesheet" href="style5.css"/>
+</head>
+<body>
+    <!-- Play Button -->
+    <div id="start-screen" class="start-screen">
+        <button id="play-btn">Play Quiz</button>
+    </div>
+
+    <!-- Quiz Content -->
+    <main id="quiz-container" class="quiz-container hide">
+        <!-- Heading for the quiz game -->
+        <h1 class="quiz-heading">SpaceX Quiz Game!</h1>
+        
+        <!-- Container for quiz questions and choices -->
+        <div id="question" class="question"></div> <!-- Placeholder for the quiz question -->
+        <div id="choices" class="choices"></div> <!-- Container for the answer choices -->
+        
+        <!-- Paragraph to display the current score -->
+        <p id="score">Score: 0</p>
+        
+        <!-- Button to reset the game -->
+        <button id="reset-btn">Reset Game</button>
+    </main>
+    
+    <!-- Container for feedback messages and celebration image below the quiz content -->
+    <div class="msg-container hide">
+        <p id="msg"></p> <!-- Message to display results or feedback -->
+        <button id="new-btn">New Game</button> <!-- Button to start a new game -->
+        <img id="celebration-image" src="" alt="Celebration" class="feedback-image hide"/> <!-- Image for celebration or feedback -->
+    </div>
+
+    <!-- Link to external JavaScript file for game logic -->
+    <script src="app5.js"></script>
+</body>
+</html>
