@@ -1,4 +1,4 @@
-JAVASCRIPT FILE FOR SPACEX QUIZ GAME:
+// Javascript_file for SpaceX Quiz Game:
 const resetBtn = document.querySelector("#reset-btn");
 const newGameBtn = document.querySelector("#new-btn");
 const msgContainer = document.querySelector(".msg-container");
@@ -19,7 +19,61 @@ const questions = [
         answer: "Jupiter",
         info: "Jupiter is the largest planet in our solar system."
     },
-    // Add more questions here...
+    {
+        question: "Which planet is known as the Red Planet?",
+        choices: ["Mars", "Venus", "Mercury"],
+        answer: "Mars",
+        info: "Mars is known as the Red Planet due to its reddish appearance."
+    },
+    {
+        question: "What is the closest star to Earth?",
+        choices: ["Proxima Centauri", "Sirius", "Sun"],
+        answer: "Sun",
+        info: "The Sun is the closest star to Earth."
+    },
+    {
+        question: "How many planets are in the solar system?",
+        choices: ["7", "8", "9"],
+        answer: "8",
+        info: "There are 8 planets in our solar system."
+    },
+    {
+        question: "What galaxy do we live in?",
+        choices: ["Andromeda", "Milky Way", "Whirlpool"],
+        answer: "Milky Way",
+        info: "We live in the Milky Way galaxy."
+    },
+    // Additional questions
+    {
+        question: "Which planet has the most moons?",
+        choices: ["Earth", "Saturn", "Neptune"],
+        answer: "Saturn",
+        info: "Saturn has the most moons of any planet in our solar system."
+    },
+    {
+        question: "What is the name of the first artificial satellite launched into space?",
+        choices: ["Hubble", "Sputnik", "Voyager"],
+        answer: "Sputnik",
+        info: "Sputnik was the first artificial satellite, launched by the Soviet Union."
+    },
+    {
+        question: "Which planet is known for its rings?",
+        choices: ["Uranus", "Saturn", "Jupiter"],
+        answer: "Saturn",
+        info: "Saturn is famous for its prominent ring system."
+    },
+    {
+        question: "What is the name of the rover that landed on Mars in 2021?",
+        choices: ["Opportunity", "Curiosity", "Perseverance"],
+        answer: "Perseverance",
+        info: "The Perseverance rover landed on Mars in February 2021."
+    },
+    {
+        question: "Which celestial body is the hottest in the solar system?",
+        choices: ["Mercury", "Venus", "Sun"],
+        answer: "Venus",
+        info: "Despite being further from the Sun, Venus is the hottest planet in the solar system."
+    }
 ];
 
 const shuffleQuestions = () => {
