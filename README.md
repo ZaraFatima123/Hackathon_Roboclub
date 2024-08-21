@@ -2,7 +2,7 @@
 Welcome to the SpaceX Quiz Game!
 This fun and educational quiz game tests your knowledge about space with exciting questions and instant feedback. Celebrate each correct answer with a special image and learn fascinating facts along the way!
 
-👩‍💻** Project Members:**
+👩‍💻 **Project Members**:
 -Zara Fatima Siddiqui
 -Nausheen Kausar
 -Rabia Khatoon
