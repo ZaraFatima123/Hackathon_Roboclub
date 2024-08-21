@@ -1,0 +1,138 @@
+// CSS File for SpaceX Quiz Game: 
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: url('https://images.pexels.com/photos/2166/flight-sky-earth-space.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed; /* Background image */
+    background-size: cover; 
+    background-attachment: fixed; /* Fixes the background image in place */
+    color: #c5c6c7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.start-screen {
+    text-align: center;
+    margin-top: 20%;
+}
+
+#play-btn {
+    background-color: #45a29e;
+    border: none;
+    padding: 20px 40px; /* Increased padding for larger button */
+    font-size: 36px; /* Increased font size for larger button */
+    color: #0b0c10;
+    cursor: pointer;
+    border-radius: 12px; /* Slightly larger border radius */
+    transition: background-color 0.3s ease;
+}
+
+#play-btn:hover {
+    background-color: #66fcf1;
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1f2833;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-heading {
+    font-family: 'Lobster', cursive; /* Stylish font for the heading */
+    font-size: 3em;
+    color: #61dafb;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.choices button {
+    background-color: #45a29e;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    color: #0b0c10;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.choices button:hover {
+    background-color: #66fcf1;
+}
+
+.feedback-container {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.feedback-container.hide {
+    display: none;
+}
+
+.feedback {
+    color: #32cd32; /* Default feedback color */
+    font-weight: bold;
+}
+
+.feedback.correct {
+    color: #32cd32; /* Green for correct answers */
+}
+
+.feedback.incorrect {
+    color: #ff0000; /* Red for incorrect answers */
+}
+
+.msg-container {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #66fcf1;
+}
+
+.msg-container.hide {
+    display: none;
+}
+
+.feedback-image {
+    margin-top: 10px;
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+.feedback-image.hide {
+    display: none;
+}
+
+button {
+    background-color: #45a29e;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #0b0c10;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #66fcf1;
+}
+
+#score {
+    font-size: 24px;
+    color: #66fcf1;
+    margin-top: 20px;
+}
